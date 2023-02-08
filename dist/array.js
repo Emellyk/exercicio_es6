@@ -14,7 +14,7 @@ var aluno = [{
   nota: 8
 }];
 console.log(aluno);
-var alunosAprovados = aluno.filter(function (notas) {
-  return notas.nota <= '6';
+var alunosReprovados = aluno.filter(function (notas) {
+  return notas.nota >= '6';
 });
-console.log(alunosAprovados);
+console.log(alunosReprovados);

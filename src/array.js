@@ -13,12 +13,11 @@ const aluno = [{
     {
     nome: 'Pedro',
     nota: 8
-}
-]
-console.log(aluno)
+}]
+console.log(aluno);
 
 
 const alunosAprovados = aluno.filter(function(notas){
-return notas.nota <= '6';
+    return notas.nota >= '6';
 })
-console.log(alunosAprovados)
+console.log(alunosAprovados);
